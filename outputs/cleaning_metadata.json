@@ -1,0 +1,71 @@
+{
+  "input_file": "adultfin.csv",
+  "rows_loaded": 32561,
+  "columns_loaded": 15,
+  "duplicate_rows_removed": 24,
+  "rows_after_cleaning": 32537,
+  "columns_in_cleaned_file": 27,
+  "model_ready_shape": [
+    32537,
+    93
+  ],
+  "placeholder_missing_counts": {
+    "workclass": 1836,
+    "occupation": 1843,
+    "native_country": 583
+  },
+  "invalid_numeric_counts": {
+    "age": 0,
+    "fnlwgt": 0,
+    "education_num": 0,
+    "capital_gain": 0,
+    "capital_loss": 0,
+    "hours_per_week": 0
+  },
+  "invalid_income_count": 0,
+  "inconsistent_education_categories": 0,
+  "cap_limits": {
+    "age": {
+      "p01": 17.0,
+      "p99": 74.0
+    },
+    "fnlwgt": {
+      "p01": 27185.08,
+      "p99": 510072.0
+    },
+    "hours_per_week": {
+      "p01": 8.0,
+      "p99": 80.0
+    }
+  },
+  "scaling_parameters": {
+    "age": {
+      "median": 37.0,
+      "iqr": 20.0
+    },
+    "fnlwgt_log1p": {
+      "median": 12.091542438685178,
+      "iqr": 0.6988088903838143
+    },
+    "education_num": {
+      "median": 10.0,
+      "iqr": 3.0
+    },
+    "capital_gain_log1p": {
+      "median": 0.0,
+      "iqr": 0.0
+    },
+    "capital_loss_log1p": {
+      "median": 0.0,
+      "iqr": 0.0
+    },
+    "hours_per_week": {
+      "median": 40.0,
+      "iqr": 5.0
+    }
+  },
+  "target_distribution": {
+    "<=50K": 24698,
+    ">50K": 7839
+  }
+}

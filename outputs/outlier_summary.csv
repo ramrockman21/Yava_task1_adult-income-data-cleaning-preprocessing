@@ -1,0 +1,6 @@
+column,lower_fence,upper_fence,outlier_count,outlier_percent
+age,-2.0,78.0,142,0.43642622245443646
+fnlwgt,-60922.0,415742.0,993,3.0519101330792635
+capital_gain,0.0,0.0,2712,8.335126164059378
+capital_loss,0.0,0.0,1519,4.668531210621754
+hours_per_week,32.5,52.5,9002,27.66696376432984

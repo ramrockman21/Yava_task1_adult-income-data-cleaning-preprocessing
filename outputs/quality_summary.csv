@@ -1,0 +1,5 @@
+metric,before,after,action
+Rows,32561,32537,Removed exact duplicate rows only
+Columns,15,27,Added engineered features and outlier flags
+Exact duplicate rows,24,0,Dropped duplicates
+Placeholder/missing values,4262,0,"Converted '?' to missing, then filled with 'Unknown'"
